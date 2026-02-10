@@ -1,6 +1,6 @@
-# Proyecto: # Api_Concesionario_de_carrros
+**# Proyecto: Api_Concesionario_de_carrros**
 
-## Estudiantes: Manuela Sanchez, David Marin
+*## Estudiantes: Manuela Sanchez, David Marin*
 
 URL de la API: https://698775ff8bacd1d773ed6e16.mockapi.io/vehiculo
 
@@ -8,7 +8,7 @@ URL de la API: https://698775ff8bacd1d773ed6e16.mockapi.io/vehiculo
 
 Se configuro el recuros *vehiculos* con la siguiente estructura de datos:
 
-{
+ `{
     "Marca": "Toyota",
     "Modelo": "Corolla",
     "precio": 280000000,
@@ -24,7 +24,7 @@ Se configuro el recuros *vehiculos* con la siguiente estructura de datos:
       "Pasajeros"
     ],
     "id": "1"
-  }
+  }`
 
 ## 2. Bitacora de operaciones CRUD (Respuestas de Postman)
 
@@ -32,7 +32,7 @@ Se configuro el recuros *vehiculos* con la siguiente estructura de datos:
 ###    - Status code: 200 OK
 ###    - Respuesta Postman:
 
-  [
+`  [
     {
         "Marca": "Toyota",
         "Modelo": "Corolla",
@@ -220,13 +220,13 @@ Se configuro el recuros *vehiculos* con la siguiente estructura de datos:
         ],
         "id": "11"
     }
-]
+]`
 
 ## B. Creación de un nuevo registro(POST)
 
    ###  - Status code: 201 Created
    ###  - Cuerpo enviado Postman:
-{
+`{
   "Marca": "Audi",
   "Modelo": "RS 5 Coupe",
   "precio": 85,
@@ -240,7 +240,7 @@ Se configuro el recuros *vehiculos* con la siguiente estructura de datos:
   },
   "Tipo_vehiculo": ["Deportivo", "Coupe", "Premium"],
   "id": "12"
-}
+}`
 
    ###   -Repuesta de Potsman:
     {
