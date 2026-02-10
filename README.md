@@ -296,5 +296,42 @@ Se configuro el recuros *vehiculos* con la siguiente estructura de datos:
 
 ## D.Actualización de registro (PUT)
    ###  - Status code: 200 OK
-   ###  -Modificación: Se actualizó el precio y 
+   ###  -Modificación: Se actualizó el precio y tipo de vehiculo del registro ID 8
    ###  - Respuesta de Postman:
+   {
+```
+    "Marca": "Porsche",
+    "Modelo": "911 Carrera",
+    "precio": 99000000000,
+    "Disponible": true,
+    "Especificaciones": {
+        "Motor": "3.0L Boxer 6 cilindros",
+        "Potencia": "379 hp",
+        "Velocidad_max": "293 km/h",
+        "Configuración": "Motor trasero"
+    },
+    "Tipo_vehiculo": [
+        "Carrera",
+        "Deportivo"
+    ],
+    "id": "8"
+}
+```
+## E.Eliminación de un registro (DELETE)
+   ###  - Status code: 200 OK
+   ###  - Respuesta de Postman:
+    "Tipo_vehiculo": [
+        "SUV",
+        "Todoterreno"
+    ],
+    "id": "11"
+}
+
+   ## F. Validación de Recurso Inexistente (GET 404)
+   ###  - Status code: 404 Not Found
+   ###  - Respuesta de Postman:
+```
+  "Not found"
+
+```
+   
