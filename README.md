@@ -6,7 +6,7 @@ URL de la API: https://698775ff8bacd1d773ed6e16.mockapi.io/vehiculo
 
 ## 1.Modelo de datos diseñado: 
 
-Se configutro el recuros *vehiculos* con la siguiente estructura de datos:
+Se configuro el recuros *vehiculos* con la siguiente estructura de datos:
 
 {
     "Marca": "Toyota",
@@ -224,8 +224,8 @@ Se configutro el recuros *vehiculos* con la siguiente estructura de datos:
 
 ## B. Creación de un nuevo registro(POST)
 
-    - Status code: 201 Created
-    - Cuerpo enviado Postman:
+   ###  - Status code: 201 Created
+   ###  - Cuerpo enviado Postman:
 {
   "Marca": "Audi",
   "Modelo": "RS 5 Coupe",
@@ -242,7 +242,7 @@ Se configutro el recuros *vehiculos* con la siguiente estructura de datos:
   "id": "12"
 }
 
-     -Repuesta de Potsman:
+   ###   -Repuesta de Potsman:
     {
     "Marca": "Audi",
     "Modelo": "RS 5 Coupe",
@@ -264,9 +264,9 @@ Se configutro el recuros *vehiculos* con la siguiente estructura de datos:
 }
 
 ## C. Culsulta de registro individual (GET)
-    -Endpoint:/vehiculo/11
-    - Status code: 200 OK
-    - Respuesta de Postman:
+###     -Endpoint:/vehiculo/11
+###     - Status code: 200 OK
+###     - Respuesta de Postman:
     {
     "Marca": "Land Rover",
     "Modelo": "Defender",
@@ -286,6 +286,6 @@ Se configutro el recuros *vehiculos* con la siguiente estructura de datos:
 }
 
 ## D.Actualización de registro (PUT)
-    - Status code: 200 OK
-    -Modificación: Se actualizó el precio y 
-    - Respuesta de Postman:
+   ###  - Status code: 200 OK
+   ###  -Modificación: Se actualizó el precio y 
+   ###  - Respuesta de Postman:
